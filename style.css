@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/149786.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+}
+
+h1{
+   
+    text-align: center;
+    color: gold;
+    font-size: 4vw;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 10vmin;
+    
+}
+div{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4vw;
+    color: khaki;
+    font-weight: bold;
+}
+
+#welcomeButton{
+    border-radius: 50px;
+    width: 420px;
+    height: 120px;
+    border: none;
+    font-size: x-large;
+}
+#welcomeButton:hover{
+   
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        
+        margin-top: 12vmax;
+    }
+    h1{
+        font-style: oblique;
+        font-weight: 800;
+        font-size: xx-large;
+    }
+    div{
+        font-size: 30px;
+    }
+    #welcomeButton{
+        border-radius: 50px;
+        width: 150px;
+        height: 50px;
+        font-size: large;
+    }
+    
+  }
